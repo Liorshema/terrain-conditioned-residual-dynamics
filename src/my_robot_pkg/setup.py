@@ -51,6 +51,7 @@ setup(
             'wheel_speed_publisher = my_robot_pkg.wheel_speed_publisher:main',
             'wheel_speed_subscriber = my_robot_pkg.wheel_speed_subscriber:main',
             'cmd_vel_publisher = my_robot_pkg.cmd_vel_publisher:main',
+            'simulated_imu_publisher = my_robot_pkg.simulated_imu_publisher:main',
         ],
     },
 )
